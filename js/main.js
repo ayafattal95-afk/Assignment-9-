@@ -196,7 +196,9 @@ function disPlayContsct(arr = allUsers) {
                 </div>
 
                 <div class="d-flex gap-2">
-                  <span class="green-color py-1 px-2 rounded-3">Friends</span>
+                  <span class="green-color py-1 px-2 rounded-3">${
+                    arr[i].category
+                  }</span>
                   <span class="bg-red-2 py-1 px-2 rounded-3 ${
                     arr[i].emergency == true ? "d-block" : "d-none"
                   }">
