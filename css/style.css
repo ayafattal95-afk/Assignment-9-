@@ -1,0 +1,281 @@
+:root {
+  --accent-color: oklch(51.1% 0.262 276.966);
+}
+
+body {
+  background-color: rgba(221, 216, 216, 0.76);
+}
+
+.w-45 {
+  width: 49%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.min-h-30 {
+  min-height: 50vh;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.fs-7 {
+  font-size: 0.8rem;
+}
+
+.accent-color {
+  color: var(--accent-color);
+}
+
+.accent-bg-2 {
+  background-color: oklch(55.568% 0.21275 282.217 / 0.295);
+}
+
+.accent-bg {
+  background-color: var(--accent-color);
+}
+
+.purple-color {
+  color: oklch(51.1% 0.262 276.966);
+  background-color: oklch(78.855% 0.0523 290.077 / 0.589);
+}
+
+.green-color {
+  color: rgb(37, 138, 37);
+  background-color: rgba(92, 190, 92, 0.466);
+}
+
+.bg-yellow {
+  background-color: rgb(255, 115, 0);
+}
+
+.orange-color {
+  color: rgb(255, 115, 0);
+}
+
+.bg-orange {
+  color: orange;
+  background-color: rgba(207, 180, 131, 0.534);
+}
+
+.bg-orange-2 {
+  background-color: rgba(233, 168, 47, 0.473);
+}
+
+.bg-red {
+  background-color: rgba(216, 45, 45, 0.877);
+}
+
+.text-red {
+  color: red;
+}
+
+.bg-red-2 {
+  background-color: rgba(199, 90, 90, 0.397);
+}
+
+.bg-red-2 {
+  background-color: rgba(199, 90, 90, 0.397);
+  color: rgb(230, 50, 50);
+}
+
+.square-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-square-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-icon-2 {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px white solid;
+}
+
+.icon-star {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.icon-heart {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
+
+.addBTN {
+  transition: 0.3s ease;
+}
+
+.addBTN:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px oklch(65.062% 0.10048 288.668 / 0.445);
+}
+
+.trash-can-icon,
+.pen-icon,
+.heart-icon,
+.star-icon,
+.phone-icon,
+.envelope-icon,
+.star-1,
+.phone-icon2,
+.card--2,
+.cars--1 {
+  transition: 0.3s ease;
+}
+
+/* .star-icon {
+  display: none;
+}
+
+.heart-icon {
+  display: none;
+} */
+
+.star-1:hover {
+  color: orange !important;
+  background-color: beige;
+}
+
+.heart-1:hover {
+  color: rgb(221, 80, 80) !important;
+  background-color: beige;
+}
+
+.trash-can-icon:hover {
+  background-color: rgba(206, 70, 70, 0.397);
+  color: rgb(230, 50, 50);
+}
+
+.pen-icon:hover {
+  color: oklch(51.1% 0.262 276.966);
+  background-color: oklch(78.855% 0.0523 290.077 / 0.589);
+}
+
+.heart-icon:hover {
+  background-color: rgba(236, 60, 60, 0.397);
+}
+
+.star-icon:hover {
+  background-color: rgba(209, 170, 96, 0.774);
+}
+
+.phone-icon:hover {
+  background-color: rgba(62, 139, 62, 0.596);
+}
+
+.envelope-icon:hover {
+  background-color: oklch(55.971% 0.13313 285.927 / 0.637);
+}
+
+.rounded-top {
+  border-radius: 2.5rem 2.5rem 0 0;
+}
+
+.card--2:hover {
+  background-color: rgba(199, 90, 90, 0.397);
+}
+
+.card--2:hover .phone-icon2 {
+  background-color: red;
+  color: white;
+}
+
+.cars--1:hover {
+  background-color: rgba(207, 180, 131, 0.534);
+}
+
+.cars--1:hover .phone-icon2 {
+  background-color: green;
+  color: white;
+}
+
+.imageInput {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.input-form,
+.select-form,
+.textarea-form,
+.cancel-BTN {
+  background-color: #e6d2d262;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  padding: 10px 14px;
+}
+
+.cancel-BTN:hover {
+  background-color: #e6d2d2b9;
+}
+
+.save-BTN {
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  padding: 10px 14px;
+}
+
+.overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+#formeInput {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 20;
+  max-height: 100vh;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
